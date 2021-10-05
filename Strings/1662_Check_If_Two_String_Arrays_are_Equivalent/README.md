@@ -1,0 +1,47 @@
+# [1662. Check If Two String Arrays are Equivalent](https://leetcode.com/problems/check-if-two-string-arrays-are-equivalent/)
+
+**Difficulty** : Easy
+
+Given two string arrays word1 and word2, return true if the two arrays represent the same string, and false otherwise.
+
+A string is represented by an array if the array elements concatenated in order forms the string.
+
+---
+ 
+## Example 1: 
+```
+Input: word1 = ["ab", "c"], word2 = ["a", "bc"]
+Output: true 
+Explanation:
+word1 represents string "ab" + "c" -> "abc"
+word2 represents string "a" + "bc" -> "abc"
+The strings are the same, so return true.
+```
+
+## Example 2:
+```
+Input: word1 = ["a", "cb"], word2 = ["ab", "c"]
+Output: false
+```
+
+## Example 3:
+```
+Input: word1  = ["abc", "d", "defg"], word2 = ["abcddefg"]
+Output: true
+```
+ 
+## Constraints:
+
+* 1 <= word1.length, word2.length <= 10<sup>3</sup> </br>
+* 1 <= word1[i].length, word2[i].length <= 10<sup>3</sup> </br>
+* 1 <= sum(word1[i].length), sum(word2[i].length) <= 10<sup>3</sup> </br>
+* word1[i] and word2[i] consist of lowercase letters.
+
+<br>
+
+# Submission Details
+
+* 109 / 109 test cases passed. <br>
+* Status: Accepted <br>
+* Runtime: 55 ms <br>
+* Memory Usage: 14.2 MB <br>
