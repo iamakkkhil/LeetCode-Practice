@@ -38,7 +38,7 @@ Output: [3,2,0,1]
 
 # Submission Details
 
-* 95 / 95 test cases passed.
+* 259 / 259 test cases passed.
 * Status: Accepted
-* Runtime: 90 ms
-* Memory Usage: 15.1 MB
+* Runtime: 73 ms
+* Memory Usage: 14.1 MB
