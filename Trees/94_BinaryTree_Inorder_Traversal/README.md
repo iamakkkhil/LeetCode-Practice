@@ -11,7 +11,7 @@ c
 ![img](https://assets.leetcode.com/uploads/2020/09/15/inorder_1.jpg)
 
 ```
-Input: root = [1,null,2,3]
+Input: root = [1,null,2,3 ]
 Output: [1,3,2]
 ```
 
