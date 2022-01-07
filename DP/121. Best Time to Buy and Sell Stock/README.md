@@ -2,6 +2,7 @@
 
 **Difficulty** : Easy
 
+
 You are given an array `prices` where `prices[i]` is the price of a given stock on the `ith` day.
 
 You want to maximize your profit by choosing a __single day__ to buy one stock and choosing a __different day in the future__ to sell that stock.
