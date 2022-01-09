@@ -40,6 +40,6 @@ Output: 23
 # Submission Details
 
 * 209 / 209 test cases passed.
-* Status: Accepted
 * Runtime: 691 ms
 * Memory Usage: 28.8 MB
+
