@@ -11,10 +11,10 @@ def maxProduct(nums):
         if i == 0:
             curMax, curMin = 1, 1
             continue
-        
+
         # tmp is created beacuse on line 17 curMx is getting updated and we need to keep the old value.
         tmp = curMax * i
-        
+
         curMax = max(curMax * i, curMin * i, i)
         curMin = min(tmp, curMin * i, i)
         res = max(res, curMax)

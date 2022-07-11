@@ -9,16 +9,15 @@ Recursive Approach
 #         self.left = left
 #         self.right = right
 class Solution:
-
     def utilInorderTraversal(self, root: Optional[TreeNode], res):
-        if root==None:
+        if root == None:
             return
         if root.left != None:
             self.utilInorderTraversal(root.left, res)
-        res.append(root.val)    
+        res.append(root.val)
         if root.right != None:
             self.utilInorderTraversal(root.right, res)
-    
+
     def inorderTraversal(self, root: Optional[TreeNode]) -> List[int]:
         res = []
         self.utilInorderTraversal(root, res)

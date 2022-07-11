@@ -17,6 +17,6 @@ def countStudents(students, sandwiches) -> int:
 
 
 if __name__ == "__main__":
-    students = [1,1,1,0,0,1]
-    sandwiches = [1,0,0,0,1,1]
+    students = [1, 1, 1, 0, 0, 1]
+    sandwiches = [1, 0, 0, 0, 1, 1]
     print(countStudents(students, sandwiches))

@@ -13,7 +13,7 @@ def balancedString(s: str) -> int:
     for i in s:
         count_chars[i] += 1
 
-    while p2 >= p1 and p2 < len(s)+1:
+    while p2 >= p1 and p2 < len(s) + 1:
         if check_satisfy(balanced_count, count_chars):
             count_chars[s[p1]] += 1
             p1 += 1

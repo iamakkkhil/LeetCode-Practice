@@ -13,8 +13,8 @@ class Solution:
         res = []
         stack = []
         current = root
-        
-        while(current or stack):
+
+        while current or stack:
             if current:
                 stack.append(current)
                 current = current.left
@@ -22,5 +22,5 @@ class Solution:
                 current = stack.pop()
                 res.append(current.val)
                 current = current.right
-        
+
         return res

@@ -1,5 +1,6 @@
 from typing import Collection
 
+
 def deleteAndEarn(nums) -> int:
     count = Collection.Counter(nums)
     prev = None
